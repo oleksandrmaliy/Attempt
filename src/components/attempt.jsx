@@ -1,8 +1,8 @@
 const Attempt = () => {
   return (
     <>
-      <div>
-        <div>
+      <div className="container my-8 grid grid-cols-1 gap-16 border-4 border-red-500 p-10 md:grid-cols-3">
+        <div className="md:bg-blue-500">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque
             perspiciatis quisquam ipsa nemo molestiae quis corporis accusamus
@@ -13,7 +13,7 @@ const Attempt = () => {
             Asperiores incidunt suscipit illum culpa?
           </p>
         </div>
-        <div>
+        <div className="md:col-span-2 md:bg-red-500">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsum,
             laboriosam rem unde facere eaque excepturi sequi fugit tenetur modi,
@@ -34,7 +34,7 @@ const Attempt = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Attempt;
+export default Attempt
